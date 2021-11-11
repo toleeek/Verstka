@@ -1,0 +1,401 @@
+body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.tochka{
+    font-size: 30px;
+}
+
+.imagesOne{
+    padding-bottom: 10%;
+}
+
+.cards{
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.menu{
+    position: center;
+    width: 1410px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+.menuTwo{
+    position: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.tol{
+    margin-left: 190px;
+}
+
+.toolBar{
+    position: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuTwoPad{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menuPadding{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btnregister{
+    border-radius: 10px;
+}
+
+.firstsrc{
+    width: 400px;
+    height: 550px;
+    border-radius: 200px;
+    border: solid 10px #ffffff;
+}
+
+.secondsrc{
+    width: 300px;
+    height: 400px;
+    border-radius: 200px;
+    border: solid 10px #ffffff;
+
+}
+
+.image-stack{
+    position: relative;
+    width: 100%;
+
+}
+
+.imageTop{
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.imageBottom{
+    position: absolute;
+    left: 370px;
+    top: 220px;
+    z-index: 1;
+
+}
+
+.letsEnjoy{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.upp{
+    font-size: 60px;
+}
+
+.uppTwo{
+    font-size: 45px;
+}
+
+.btnStartNow{
+    border-radius: 10px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.BtnTool{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: -6%;
+}
+
+.btn-group{
+    border-radius: 100px;
+}
+
+.btnColor{
+    background: white;
+}
+
+.btnLeft{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.btnRight{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.iconka{
+    font-size: 80px;
+}
+
+.boxShadow {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cardTxt{
+    border: solid 0.5px #f4f6f6;
+}
+
+.img-fluid{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    border: solid 5px #ffffff ;
+}
+
+.cardPhoto{
+    width: 320px;
+    height: 502px;
+    border-radius: 20px;
+}
+
+.arrColor{
+    background: white;
+}
+
+.vector{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 33px;
+    top: 20px;
+    border: 20px solid transparent;
+    border-left: 20px solid #00B3A0;
+    border-radius: 1px;
+    z-index: 2;
+}
+
+.ellipceone{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 220px;
+    top: -520px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 90px;
+}
+
+.ellipcetwo{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 20px;
+    top: 22px;
+    background: #FFFFFF;
+    border-radius: 90px;
+    z-index: 1;
+}
+
+.discover{
+    margin-left: -20px;
+    margin-top: -600px;
+}
+
+.imageTopTwo{
+    padding-top: 20px;
+    padding-right: 20%;
+}
+
+.shadow{
+    background: rgba(26, 26, 26, 0.5);
+    position: relative;
+    z-index: 2;
+    top: -100px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.imageBottomTwo{
+    position: absolute;
+    left: -130px;
+    top: 220px;
+    z-index: 1;
+}
+
+.CardBody{
+    width: 180px;
+}
+
+.cardTitle{
+    margin-left: -75px;
+}
+
+.cardText{
+    margin-left: -75px;
+}
+
+.stepSection{
+    position: center;
+    width: 1440px;
+    height: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #F8F8F8;
+}
+
+.testimon{
+    padding-top: 7%;
+}
+
+.question{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:  #d6eaf8;
+    border-radius: 50px;
+}
+
+.btnCont{
+    border-radius: 15px;
+}
+
+.photocardsl{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.menuwomen{
+    position: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+
+.map{
+    position: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.cars1{
+    width: 600px;
+    left: 425px;
+    right: auto;
+    top: -550px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: solid 1px #9b9b9b;
+
+}
+
+.kovuchku{
+    font-size: 50px;
+
+}
+
+
+
+.foto1{
+    width: 100px;
+    border-radius: 50px;
+    border: solid 2px white;
+}
+.g1{
+    margin-top: 80px;
+    margin-left: -750px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.foto3{
+    width: 70px;
+    border-radius: 50px;
+    border: solid 2px white;
+}
+.g3{
+    margin-top: 200px;
+    margin-left: -350px;
+    position: absolute;
+    z-index: 3;
+}
+
+.foto2{
+    width: 70px;
+    border-radius: 50px;
+    border: solid 2px white;
+}
+.g2{
+    margin-top: 150px;
+    margin-left: -1250px;
+    position: absolute;
+    z-index: 3;
+}
+
+.ticket{
+    margin-top:-60px;
+}
+
+.btnsoc{
+    border-radius: 30px;
+    border: solid 1px black;
+}
+
+.hrfoot{
+    position: center;
+    width: 1440px;
+    color: #9b9b9b;
+}
+
+.polovuna{
+    width:150px;
+    height:400px;
+    border-top-right-radius: 130px;
+    border-bottom-right-radius: 130px;
+}
+.krug{
+    border-radius: 130px;
+}
+
+.kvard{
+    border-radius: 15px;
+    margin-left: 3.82%;
+    margin-right: 3.82%;
+}
+
+.polovuna2{
+    width:150px;
+    height:400px;
+    border-top-left-radius: 130px;
+    border-bottom-left-radius: 130px;
+}
+
+.check{
+    padding-left: 150px;
+}
+
+.btninst{
+    margin-left: 60px;
+}
+
+.yourFamily{
+    padding-left: 125px;
+}
