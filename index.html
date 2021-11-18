@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel = "stylesheet" type = "text/css" href="style.css" />
+    <link rel = "stylesheet" type = "text/css" href="style.css?1" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Infant">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
@@ -42,13 +42,53 @@
         </div>
         <div class=" col-xl-3 col-lg-3 col-sm-3 " >
             <ul class="nav justify-content-center">
-                <button type="button" class="btn btn-primary ml-4 mt-2 px-3 py-2">Register</button>
+                <div class="wrap">
+
+                    <a type="submit" class="modal-toggle btnregister  ml-5 mt-2 px-3 py-2" onClick="openPopup('#wrap_popup2')">Register</a>
+
+                    <div id="wrap_popup2" class="wrap_popup">
+                        <div class="popup">
+                            <div class="title">
+                                <p>
+                                    <div class="row">
+                                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                                            Registration
+                                        </div>
+                                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                                            <button class="text-light btn-danger btnX text-right ml-4 pl-2 pr-2" onClick="closePopup('#wrap_popup2')">X</button>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                            <div class="box">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="text-center">
+                                        <input type="button" value="Register" class="btnModel mb-2">
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </ul>
         </div>
     </div>
 
 
 </div>
+
+
 
 <div class="menuTwo pb-5 bg-light ">
     <div class="row imagesOne">
@@ -78,22 +118,45 @@
     <div class="btn-toolbar tol" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group me-2 boxShadow" role="group" aria-label="First group">
             <button type="button" class="btn btnColor btnLeft text-dark BtnTool">
-                <b class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Location
-                </b>
-                Select
+                <div class="col-sm">
+                    <select id="select" style="border-style: none; font-size: 17px; font-weight: bold" class="form-control">
+                        <option selected disabled>Location</option>
+                        <option value="1"></i>Italy</option>
+                        <option value="2" ></i>China</option>
+                        <option value="3"></i>France</option>
+                    </select>
+                </div>
+                <div class="mt-2 text-center" id="js-result">
+                    <span >Select</span>
+                </div>
             </button>
             <button type="button" class="btn btnColor text-dark BtnTool">
-                <b class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Your Category
-                </b>
-                Select
+                <div class="col-sm">
+                    <select id="select1" class="form-control" style="border-style: none; font-size: 17px; font-weight: bold">
+                        <option  selected disabled>Your Category</option>
+                        <option value="1" ></i>3 stars</option>
+                        <option value="2" ></i>4 stars</option>
+                        <option value="3"></i>5 stars</option>
+                    </select>
+                </div>
+                <div class="mt-2 text-center" id="js-result1">
+                    <span>Select</span>
+                </div>
             </button>
             <button type="button" class="btn btnColor text-dark BtnTool">
-                <b class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Total Person
-                </b>
-                Select
+                <div class="col-sm">
+                    <select id="select2" class="form-control" style="border-style: none; font-size: 17px; font-weight: bold">
+                        <option selected disabled>Total Person</option>
+                        <option value="1" ></i>One person</option>
+                        <option value="2" ></i>Two person</option>
+                        <option value="3"></i>Three person</option>
+                        <option value="4"></i>Four person</option>
+                        <option value="5"></i>Five person</option>
+                    </select>
+                </div>
+                <div class="mt-2 text-center" id="js-result2">
+                    <span>Select</span>
+                </div>
             </button>
             <button type="button" class="btn btn-primary btnRight BtnTool">
                 <b>
@@ -105,6 +168,14 @@
         </div>
     </div>
 </div>
+
+
+
+
+<div id="button-up" class="text-right"><i class="fas fa-chevron-up text-primary"></i></div>
+
+
+
 
 <div class="menuTwo mt-5 pt-4 text-center cards">
     <div>
@@ -222,7 +293,7 @@
                                             <img class="img-fluid" src="img/sec.jpg">
                                             <div class="shadow px-4 mx-4 text-light ">
                                                 China - Pekin <i class="far ml-4 fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><br>
-                                                    Example Text <span class="ml-5 pl-3">$1200</span>
+                                                Example Text <span class="ml-5 pl-3">$1200</span>
                                             </div>
                                         </div>
                                     </div>
@@ -484,12 +555,80 @@
 <span class="tetcenter text-secondary py-4 "><i class="far fa-copyright"></i> 2021. All copyrights reserved by RH Agency</span>
 </div>
 
+
+
+
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script>
+    $('#select').click(function(){
+        var value = $('#select option:selected').text();
+        $('#js-result').html(value);
+        $('#select option:first').prop('selected', true);
+    });
 
 </script>
+
+<script>
+    $('#select1').click(function(){
+        var value = $('#select1 option:selected').text();
+        $('#js-result1').html(value);
+        $('#select1 option:first').prop('selected', true);
+    });
+
+</script>
+
+
+<script>
+    $('#select2').click(function(){
+        var value = $('#select2 option:selected').text();
+        $('#js-result2').html(value);
+        $('#select2 option:first').prop('selected', true);
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        var button = $('#button-up');
+        $(window).scroll (function () {
+            if ($(this).scrollTop () > 1000) {
+                button.fadeIn();
+            } else {
+                button.fadeOut();
+            }
+        });
+        button.on('click', function(){
+            $('body, html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
+</script>
+
+
+<script>
+    function openPopup(divPopup) {
+        $(divPopup).fadeIn(250);
+    }
+
+    function closePopup(divPopup) {
+        $(divPopup).fadeOut(250);
+    }
+
+</script>
+
 </body>
 </html>
 
